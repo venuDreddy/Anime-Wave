@@ -85,7 +85,7 @@ async function getRandom() {
   randomInfo.classList.add("info");
   randomInfo.innerHTML = `<div class="img-info">
         <img src="${info.data.images.jpg.image_url}" alt="" />
-        <article>
+        <article class="random-img-details">
           <p><b>Title:</b>${info.data.title_english || info.data.title}</p>
           <p><b>Episodes:</b>${info.data.episodes || "Not Available"}</p>
           <p><b>Status:</b>${info.data.status || "Not Available"}</p>

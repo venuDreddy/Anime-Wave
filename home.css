@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 5px;
-  /* background-color: #7b6496; */
 }
 .name {
   color: purple;
@@ -20,8 +19,12 @@ nav {
   background-color: green;
 }
 .random {
-  color: white;
   cursor: pointer;
+}
+.random-img-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .images {
   display: flex;
@@ -36,7 +39,7 @@ img {
 .img-info {
   display: flex;
   align-items: center;
-  /* background-color: #80fdb8; */
+  flex-wrap: wrap;
 }
 .info {
   margin-bottom: 20px;
